@@ -1,0 +1,143 @@
+body{
+	background: #282828;
+}
+.content-wrapper{
+	width: 950px;
+	height: 4017px;
+	margin: 0 auto;
+	font-family: MontserratRegular; 
+	background-color: #fefefe;
+}
+.fixs{
+	padding-top: 25px;
+	display: -webkit-box;
+}
+.content-wrapper > *{
+	padding-left: 33px;
+	padding-right: 33px;
+}
+.menu{
+	margin-left: 410px;
+	display: block;
+	width: 16px;
+	height: 9px;
+	background: url("../images/menu.png") no-repeat;
+	background-size: contain;
+}
+.fixs p{
+	font-size: 13px;
+}
+.fixs p:last-of-type {
+    margin-left: 331px;
+}
+.bannerimage{
+	padding: 104px 0 0 73px;
+	height: 357px;
+	margin-top: 23px;
+	background: url("../images/bannerimage.png") no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+}
+.wrapperintro{
+	display: -webkit-box;
+}
+.videoimage{
+	width: 295px;
+	height: 215px;
+	background: url("../images/videoimage.png") no-repeat;
+	background-size: contain;
+	background-color: #282828;
+}
+.agencyintro{
+	display: inline-block;
+	width: 589px;
+	height: 215px;
+	background-color: #f4f4f4;
+}
+.agencyintro > p{
+	font: 24px KreonRegular;
+	margin: 46px 60px 0 41px;
+}
+.mobileapp{
+	/*position: relative;*/
+	margin-left: 387px;
+	width: 265px;
+	height: 370px;
+	background: url("../images/mobileapp.png") no-repeat;
+	background-size: contain;
+	margin-top: -282px;
+}
+.circle{
+	width: 79px;
+	height: 79px;
+	margin: 70px auto;
+	background: url("../images/circle.png") no-repeat;
+	background-size: contain;
+}
+.playicon{
+	position: relative;
+	width: 25px;
+	height: 29px;
+	left: 30px;
+	top: 26px;
+	background: url("../images/playicon.png") no-repeat;
+	background-size: contain;
+}
+.bannertext > h1{
+	width: 260px;
+	font: 27px MontserratBold;
+	color: #fff;
+}
+.bannertext > p{
+	margin-top: 9px;
+	width: 191px;
+	font: 13px Helvetica;
+	color: #fff;
+}
+.bannerimage > button{
+	margin: 18px 0 0 1px;
+	width: 84px;
+	height: 28px;
+	background-color: #ff8758;
+	border-radius: 3px;
+	border: 1px solid  #ff8758;
+}
+.bannerimage button p{
+	font: 7px  MontserratBold;
+	color: #fff;
+} 
+.projects header>h2{
+	position:relative;
+	font: 13px MontserratBold;
+	text-align: center;
+	margin-bottom: 37px;
+} 
+.projects header>h2:before{
+	content: "";
+	position: absolute;
+	bottom: -11px;
+	left: 430px;
+	width: 24px;
+	height: 4px;
+	background: url("../images/wave.png") no-repeat;
+	background-size: contain;
+}
+.wave{
+	display: none;
+	width: 24px;
+	height: 4px;
+	background: url("../images/wave.png") no-repeat;
+	background-size: contain;
+	margin: 8px auto 23px;
+}
+.projects header{
+	padding-top: 29px;
+}
+.project1{
+	width: 442px;
+	height: 474px;
+	background: url("../images/project1.png") no-repeat;
+	background-size: 161% 106%;
+	background-position: -34px -29px;
+	background-color: #000;
+}

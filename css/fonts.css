@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.otf); 
+}
+@font-face {
+    font-family: KreonRegular;
+    src: url(../fonts/KreonRegular.ttf); 
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../fonts/MontserratRegular.ttf); 
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/MontserratBold.ttf); 
+}
