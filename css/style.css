@@ -59,7 +59,6 @@ body{
 	margin: 46px 60px 0 41px;
 }
 .mobileapp{
-	/*position: relative;*/
 	margin-left: 387px;
 	width: 265px;
 	height: 370px;
@@ -106,13 +105,19 @@ body{
 	font: 7px  MontserratBold;
 	color: #fff;
 } 
-.projects header>h2{
+.content-wrapper header h2{
 	position:relative;
 	font: 13px MontserratBold;
 	text-align: center;
-	margin-bottom: 37px;
-} 
-.projects header>h2:before{
+}
+.projects header > h2{
+	margin: 31px 0 34px 0;
+}	
+.projects header>h2:before,
+.projectpackages header>h2:before,
+.people header>h2:before,
+.howwework header>h2:before,
+.contactus header>h2:before{
 	content: "";
 	position: absolute;
 	bottom: -11px;
@@ -122,16 +127,18 @@ body{
 	background: url("../images/wave.png") no-repeat;
 	background-size: contain;
 }
-.wave{
-	display: none;
-	width: 24px;
-	height: 4px;
-	background: url("../images/wave.png") no-repeat;
-	background-size: contain;
-	margin: 8px auto 23px;
+.wrapperprojects{
+	display: flex;
+	color: #fefefe;
 }
-.projects header{
-	padding-top: 29px;
+.wrapperprojects1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.wrapperprojects2{
+	display: flex;
+	flex-wrap: wrap;
 }
 .project1{
 	width: 442px;
@@ -140,4 +147,481 @@ body{
 	background-size: 161% 106%;
 	background-position: -34px -29px;
 	background-color: #000;
+}
+.project2{
+	width: 221px;
+	height: 240px;
+	background: url("../images/project2.png") no-repeat;
+	background-size: 120% 168%;
+	background-position: -16px -46px;
+}
+.project3{
+	width: 221px;
+	height: 240px;
+	background: url("../images/project3.png") no-repeat;
+	background-size: 148% 102%;
+	background-position: -70px 0px;
+}
+.project4{
+	width: 442px;
+	height: 234px;
+	background: url("../images/project4.png") no-repeat;
+	background-size: 133% 194%;
+	background-position: -103px -37px;
+}
+.project5{
+	width: 442px;
+	height: 237px;
+	background: url("../images/project5.png") no-repeat;
+	background-size: 139% 153%;
+	background-position: -35px 15px;
+	background-color: #55616b;
+}
+.project6{
+	width: 221px;
+	height: 237px;
+	background: url("../images/project6.png") no-repeat;
+	background-size: 75% 137%;
+	background-position: 29px 15px;
+	background-color: #439df9;
+}
+.project7{
+	width: 221px;
+	height: 237px;
+	background: url("../images/project7.png") no-repeat;
+	background-size: 205% 165%;
+	background-position: -200px -83px;
+}
+.project1{
+	text-align:center;
+	padding-top: 150px;
+	box-sizing: border-box;
+}
+.project1 p:first-of-type{
+	font: 9px MontserratBold;
+}
+.project1 > h3{
+	margin: 5px 0 10px 0;
+	font: 13px MontserratBold;
+}
+.project1 > p:last-of-type{
+	width: 210px;
+	font: 9px Helvetica;
+	margin: 0 auto;
+	line-height: 1.8;
+} 
+.project1 button{
+	width: 119px;
+	height: 32px;
+	background-color: #ff8758;
+	border: 1px solid #ff8758;
+	border-radius: 2px;
+	margin-top: 11px;
+}
+.project1 button p{
+	color: #fef0ec;
+}
+.whatsnew header>h2:before{
+	content: "";
+	position: absolute;
+	bottom: -11px;
+	left: 430px;
+	width: 24px;
+	height: 4px;
+	background: url("../images/wave.png") no-repeat;
+	background-size: contain;
+}
+.whatsnew header > h2{
+	margin: 44px 0 40px 0;
+}
+.wrapperwhatnews{
+	display: -webkit-box;
+	background-color: #f5f5f5;
+}
+.firstnew .photo1{
+	width: 223px;
+	height: 315px;
+	background: url("../images/photo1.png") no-repeat;
+	background-size: 115% 114%;
+	background-position: -1px -6px;
+}
+.firstnew{
+	display: -webkit-box;
+}
+.text1,
+.text2,
+.text3{
+	width: 220px;
+	font: 9px Helvetica;
+	box-sizing: border-box;
+	text-align: center;
+}
+.text1{
+	padding: 30px 50px 0 43px;
+}
+.text2{
+	padding: 19px 48px 0 43px;
+}
+.text3{
+	padding: 20px 51px 0 50px;
+}
+.text1 h3,
+.text2 h3,
+.text3 h3{
+	font: 10px  MontserratBold;
+}
+.text1 h3{
+	margin-bottom: 13px;
+}
+.text2 h3{
+	margin-bottom: 4px;
+}
+.text3 h3{
+	margin-bottom: 3px;
+}
+.text1>p:last-of-type,
+.text2>p:last-of-type,
+.text3>p:last-of-type{
+	line-height: 1.8;
+}
+.text1>p:last-of-type{
+	margin: 15px 0 15px;
+}
+.text2>p:last-of-type{
+	margin: 14px 0 19px;
+}
+.text3>p:last-of-type{
+	margin: 13px 0 20px;
+}
+.text1  button,
+.text2  button,
+.text3  button{
+	width: 84px;
+	height: 28px;
+	border: 1px solid #ff8758;
+	border-radius: 2px;
+	background-color: #ff8758;
+}
+.text1  button>p,
+.text2  button>p,
+.text3  button>p{
+	font: 7px MontserratBold;
+	color: #fefefe;
+} 
+.secondnew .photo2{
+	width: 220px;
+	height: 109px;
+	background: url("../images/photo2.png") no-repeat;
+	background-size: 130% 165%;
+	background-position: -34px -30px;
+}
+.thirdnew .photo3{
+	width: 220px;
+	height: 109px;
+	background: url("../images/photo3.png") no-repeat;
+	background-size: 105% 145%;
+	background-position: -2px -18px;
+}
+.projectpackages header>h2{
+	margin: 35px 0 40px 0;
+} 
+.wrapperprojectpackages{
+	display: flex;
+	justify-content: space-between;
+	padding: 46px 42px;
+}
+.projectcolumn1,
+.projectcolumn2,
+.projectcolumn3,
+.projectcolumn4{
+	width: 188px;
+	height: 311px;
+}	
+.pricebox{
+	box-sizing: border-box;
+	height: 85px;
+	padding: 18px 36px;
+	background-color: #222222;
+}
+.pricebox p:first-of-type{
+	font: 27px MontserratBold;
+	color: #fefefe;
+}
+.pricebox p:last-of-type{
+	font: 9px MontserratBold;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #b9b9b9;
+}
+.projectdescription > p{
+	font: 8px Helvetica;
+	margin: 14px 49px;
+	text-align: center;
+	line-height: 3;
+} 
+.projectdescription button{
+	width: 139px;
+	height: 29px;
+	margin-left: 24px;
+	background-color: #222;
+	border-radius: 2px;
+	border: 1px solid #222;
+}
+.projectcolumn2 .projectdescription>button{
+	border: 1px solid #ff8758;
+	background-color: #ff8758;
+}
+.projectdescription button>p{
+	font: 7px MontserratBold;
+	color: #f4f4f4; 
+} 
+.people header > h2{
+	margin: 55px 0 41px 0;
+}
+.wrapperpeople{
+	height: 249px;
+	background-image:url("../images/wave2.png"), url("../images/bgwrapperpeople.png");
+	background-repeat: no-repeat;
+	background-size: 884px 5%, 100% 181px;
+	background-position: 0px 103px, 0px 68px;
+}
+.wrapperpeopleimage{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 42px 0 42px;
+}
+.peoplephoto{
+	width: 147px;
+	height: 136px;
+}
+.peopleimage .one{
+	background: url("../images/people1.png") no-repeat;
+	background-size: 147% 115%;
+	background-position: -49px -7px;
+}
+.peopleimage .two{
+	background: url("../images/people2.png") no-repeat;
+	background-size: 145% 107%;
+	background-position: -30px -5px;
+}
+.peopleimage .three{
+	background: url("../images/people3.png") no-repeat;
+	background-size: 280% 207%;
+	background-position: -166px -50px;
+}
+.peopleimage .four{
+	background: url("../images/people4.png") no-repeat;
+	background-size: 149% 113%;
+	background-position: -35px -13px;
+}
+.peopleimage .five{
+	background: url("../images/people5.png") no-repeat;
+	background-size: 156% 110%;
+	background-position: -80px 0px;
+}
+.peoplename{
+	width: 147px;
+	background-color: #fefefe;
+	padding: 21px;
+	box-sizing: border-box;
+}
+.peoplename p:first-of-type{
+	font: 10px MontserratBold;
+	text-align: center;
+	color: #040405;
+	margin-bottom: 4px;
+}
+.peoplename p:last-of-type{
+	font: 10px MontserratRegular;
+	text-align: center;
+	color: #b8b8b8; 
+}
+.shufflers{
+	width: 32px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto 0;
+}
+.shuffler1{
+	width: 6px;
+	height: 6px;
+	background: url("../images/shuffler1.png") no-repeat;
+	background-size: cover;
+}
+.shuffler2, .shuffler3{
+	width: 6px;
+	height: 6px;
+	background: url("../images/shuffler2.png") no-repeat;
+	background-size: cover;
+}
+.howwework header>h2{
+	margin: 31px 0 33px 0;
+}
+.wrapperhowwework{
+	width: 884px;
+	height: 401px;
+	background: url("../images/bg_howwework.png") no-repeat;
+	background-size: 106% 160%;
+	background-position: -23px -160px;
+}
+.contactus header>h2{
+	margin: 36px 0 42px 0;
+}
+.wrappercontactus{
+	display: -webkit-box;
+}
+.map{
+	width: 592px;
+	height: 221px;
+	background: url("../images/map.png") no-repeat;
+	background-size: 105% 123%;
+	background-position: -1px -23px;
+}
+.wrappercontactinfo{
+	width: 292px;
+	box-sizing: border-box;
+	padding: 54px 34px 50px;
+	background-color: #2e2e2e;
+}
+.wrappercontactinfo h3{
+	font: 7px MontserratBold;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 13px;
+}
+.wrappercontactinfo p{
+	font-family: Helvetica;
+}
+.contactinfo p{
+	font-size: 9px; 
+	color: #fefefe;
+	text-align: center;
+}
+.officeaddress p{
+	font-size: 8px; 
+	color: #959595;
+	text-align: center;
+}
+.contactinfo{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 23px;
+	border-bottom: 1px solid #3c3c3c;
+}
+.officeaddress>h3{
+	margin-top: 23px;
+}
+.contactinfo>p:first-of-type{
+	border-right: 1px solid #3c3c3c;
+	padding-right: 10px;
+}
+.contactinfo>p:last-of-type{
+	border-left: 1px solid #3c3c3c;
+	padding-left: 10px;
+}
+.sayhello>p{
+	font: 66px MontserratBold;
+	color: #fefefe;
+	text-align: center;
+	padding-top: 30px;
+}
+.wrapperfixscom{
+	box-sizing: border-box;
+	background-color: #000;
+}
+.wrapperform input,
+.sayhello button>p{
+	font: 7px MontserratBold;
+	color: #fff;
+}
+.form1 input{
+	box-sizing: border-box;
+	width: 232px;
+	height: 39px;
+	background-color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	padding: 14px;
+}
+.form1 form{
+	display: flex;
+	height: 151px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wrapperform{
+	display: -webkit-box;
+	padding: 22px 200px 23px 199px;
+}
+.form2 input{
+	box-sizing: border-box;
+	width: 232px;
+	height: 148px;
+	margin-left: 20px;
+	background-color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	padding: 19px 0 130px 21px;
+}
+.sayhello>button{
+	width: 140px;
+	height: 29px;
+	background-color: #ff8758;
+	border: 1px solid #ff8758;
+	border-radius: 2px;
+	margin: 0px 0px 78px 372px;
+}
+.socialmediaicons{
+	display: -webkit-box;
+}
+.socialmediaicons>p:first-of-type{
+	font: 7px MontserratBold;
+	color: #585858;
+	margin: 4px 344px 0 2px;
+}
+.socialmediaicons>p:last-of-type{
+	font: 13px MontserratBold;
+	color: #fefefe;
+	margin-right: 221px;
+}
+.socialmediaicons ul li{
+	width: 13px;
+	height: 9px;
+}
+.socialmediaicons .behance{
+	width: 17px;
+	height: 12px;
+	background: url("../images/behance.png") no-repeat;
+	background-size: contain;
+}
+.twitter{
+	background: url("../images/twitter.png") no-repeat;
+	background-size: contain;
+}
+.linkedin{
+	background: url("../images/linkedin.png") no-repeat;
+	background-size: contain;
+}
+.facebook{
+	background: url("../images/facebook.png") no-repeat;
+	background-size: contain;
+}
+.google{
+	background: url("../images/google.png") no-repeat;
+	background-size: contain;
+}
+.trumblr{
+	background: url("../images/trumblr.png") no-repeat;
+	background-size: contain;
+}
+.socialmediaicons{
+	height: 52px;
+	box-sizing: border-box;
+	border-top: 1px solid #282828;
+	padding: 20px 0px 15px 0px;
+	margin: 0 41px 0 41px;
+}
+.socialmediaicons ul{
+	width: 167px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4px;
 }
